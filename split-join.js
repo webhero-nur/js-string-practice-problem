@@ -12,8 +12,8 @@ const partial = lyrics.slice(5, 11); // slicing a string using index
 const partial2 = lyrics.substring(12, 16); // making a sub string using index. almost same as slicing
 // console.log(partial2);
 
-const partialConcat = partial.concat(' ', partial2);
-console.log(partialConcat);
+const partialConcat = partial.concat(' ', partial2); // concat (joining multiple string)
+// console.log(partialConcat);
 
 const lines = [
     'Tumi bondhu kala pakhi, ami jeno ki',
@@ -21,5 +21,5 @@ const lines = [
     'Kala kala, sada sada'
 ]
 
-const newSong = lines.join('. ');
+const newSong = lines.join('. '); // joining string with an extra character or characters between two string
 console.log(newSong);
