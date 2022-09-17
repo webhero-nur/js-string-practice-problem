@@ -11,5 +11,10 @@ console.log(first, second);
 // second = temp;
 
 /* Approach: 2 (Destructuring) */
-[first, second] = [second, first]
+// [first, second] = [second, first]
+
+/* Approach: 3 (Math Operation, only works for numeric value) */
+first = first + second;
+second = first - second;
+first = first - second;
 console.log(first, second);
